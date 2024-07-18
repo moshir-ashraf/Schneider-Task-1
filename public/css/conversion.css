@@ -1,0 +1,102 @@
+body{
+    background-color: #333;
+}
+form{
+    border-top: 20px solid #44cb7f;
+    margin:auto;
+    margin-top: 7%;
+    width: 38%;
+    border-radius: 5px;
+    padding: 3%;
+    background-color: #fff;
+    flex-direction: row;
+    display: flex;
+    height: 350px
+}
+.logo{
+    display: inflex;
+    width:30%;
+    text-align: center;
+    margin: 2%;
+    margin-top: 5%;
+    line-height: 150%;
+}
+.logo img{
+    height: 200px;
+   margin-left: -12%;
+   margin-bottom: 2%;
+}
+.container{
+margin-left: 7%;
+width: 50%;
+display: flex;
+flex-direction: column;
+gap: 2%;
+}
+input,label,button{
+ display: block;
+ margin: 2%;
+ margin-left: 4%;
+ font-size: 16px;
+}
+h1{
+    margin: 0;
+    margin-left: 2%;
+    margin-bottom: 4%;
+}
+input{
+    width:55%;
+    border-radius: 5px;
+    border: #33333382 solid 2px;
+    padding: 1%;
+    padding-top:2% ;
+    padding-bottom: 2%;
+    color:#333
+
+}
+::placeholder{
+    font-size: 10px;
+    text-align: center;
+    margin: 1%;
+    margin-left: 3%;
+}
+button{
+    border-radius: 15px;
+    border: none;
+    padding: 2%;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #bdf0d4ae;
+    display: inline;
+    width:30%
+}
+#switch{
+    display: inline-block;
+    background-color: #424e79ae;
+    color:#fff;
+    padding: 3%;
+    width:min-content
+}
+#switch:hover{
+    background-color: #424e79;
+}
+button:hover{
+    background-color: #44cb7f;
+    color: #fff
+}
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-500px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  body * {
+    animation: fadeIn 2s ease-in-out; 
+  }
